@@ -13,3 +13,4 @@ where (t1.product_category_name = 'bebes'
 or  (t1.product_category_name = 'perfumaria'
        and t1.product_photos_qty > 5)
 
+-- AND possui prioridade em relação ao OR
