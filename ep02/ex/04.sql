@@ -16,5 +16,6 @@ group by product_category_name
 
 having avg(product_description_lenght) > 500
 
+-- Se tiver empate no primeiro critério de ordenação, considera-se o segundo critério, nesse caso max(product_name_lenght) asc
 order by min(product_name_lenght) desc,
          max(product_name_lenght) asc

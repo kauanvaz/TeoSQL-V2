@@ -9,6 +9,6 @@ select  product_category_name,
 
 from tb_products
 
-where product_description_lenght >= 100
+where product_description_lenght > 100
 
 group by product_category_name
