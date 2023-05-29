@@ -8,6 +8,7 @@ select
         count(*) as total_itens_vendidos,
         count(distinct t1.order_id) as qtde_pedidos,
         round( count(*) / cast( count(distinct t1.order_id) as float), 2) as avg_item_por_pedido
+        -- O cast serve para transformar um tipo de dado em outro. No caso acima, isso foi necessário para aparecer os decimais (int/float)
 
 from tb_order_items as t1
 

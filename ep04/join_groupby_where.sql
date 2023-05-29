@@ -1,4 +1,4 @@
--- considerando as vendas de 2017 e pedidos enteregues
+-- considerando as vendas de 2017 e pedidos entregues
 -- qual a receita de cada categoria de produto?
 -- e o total de vendas?
 -- em unidades e em pedidos?
